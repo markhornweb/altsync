@@ -1,0 +1,79 @@
+.logo.vite:hover {
+  filter: drop-shadow(0 0 2em #747bff);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafb);
+}
+
+.main-container {
+  max-width: 1200px;
+  margin-inline: auto !important;
+}
+
+.form_par .btn_download {
+  margin-top: 0px;
+  border: 0px;
+  color: #fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  max-width: 400px;
+  margin-inline: auto;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+@media (max-width: 991.98px) {
+  .form_par__new {
+    margin-top: 40px;
+  }
+
+  .main-container .form_par {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .save-delete_box .btn-green {
+    padding: 10px 25px;
+    margin-top: 20px;
+  }
+
+  .btn_download {
+    padding: 16px;
+    width: fit-content;
+    font-size: 16px;
+  }
+
+  .main-container .form_par .btn_dark {
+    padding: 15px 20px;
+  }
+
+  .form_par .input-lg {
+    height: 50px;
+  }
+
+  .form_par.form_par__new .form-group {
+    margin-bottom: 1.5rem;
+  }
+
+  .form_par.form_par__new .save-delete_box .btn {
+    font-size: 17px;
+    line-height: 26px;
+  }
+}
+
+@media(max-width: 400px) {
+  .main-container .nav>li>a {
+
+    font-size: 15px !important;
+  }
+}
